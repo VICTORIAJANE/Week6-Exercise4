@@ -6,7 +6,7 @@ int main(){
    int value, base, result = 0, size, i 
    
    printf ("chose a base");
-   scanf ('%/d& base");
+   scanf ("%/d, &base");
    
     if ("base>1 or base<10);
     printf("this is not a base!"\n);  
