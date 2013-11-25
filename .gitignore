@@ -19,7 +19,7 @@ int main(){
   if (value>0)
      printf("Negative numbers aren't acceptable"\n);
      
-   sprintf(tmp, "%d\n", value);
+   printf(tmp, "%d\n", value);
         size = strlen(tmp);
         
         for(i=0; i<size-1; i++){
